@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dịch Vụ Vận Tải Ngọc Dương</title>
+    <link rel="stylesheet" href="./acssed/css/main.css">
+    <link rel="stylesheet" href="./acssed/css/responsive.css">
+    <link rel="stylesheet" href="./acssed/themify-icons-font/themify-icons/themify-icons.css">
+</head>
+
+<body>
+    <div class="main">
+        <div id="header">
+            <ul id="nav">
+                <li class="sub-nav"><a class="nav-text" href="#">trang chủ</a></li>
+                <li class="sub-nav"><a class="nav-text" href="#service">giới thiệu</a></li>
+                <li class="sub-nav"><a class="nav-text" href="#replay">dịch vụ</a></li>
+                <li class="sub-nav"><a class="nav-text" href="">liên hệ</a></li>
+                </li>
+            </ul>
+            <div id="menu-mb"><i class="ti-menu"></i></div>
+
+        </div>
+        <div class="slider">
+
+        </div>
+        <div class="content">
+            <div class="content-text">
+                <div id="service">
+                    <h2><i class="ti-credit-card"></i> DỊCH VỤ VẬN TẢI NGỌC DƯƠNG</h2>
+                    <h3>chuyên tuyến:</h3>
+                    <p>Hà Nội
+                        <=>Ninh Bình
+                            <=>thành phố Thanh Hoá
+                                <=>Quảng Xương
+                                    <=> ngã năm Hoàng Sơn
+                                        <=> Cầu Quan
+                                            <=> Minh Khôi
+                                                <=> T.T Nông Cống
+                                                    <=>Như Thanh
+                    </p>
+                    <h4>chuyển phát nhanh hàng hoá.Giao nhận hàng hoá theo yêu cầu </h4>
+                    <h4>thời gian Xuất phát:6h</h4>
+                    <h4>nhận chuyển nhà trọn gói </h4>
+                    <button class="dv-button button-black">liên hệ dịch vụ</button>
+                </div>
+            </div>
+            <div class="content-text">
+                <div id="replay">
+                    <h2>Phản Hồi Dịch Vụ</h2>
+                    <p class="replay-text"><i class="ti-comment"></i>phản ánh chất lượng dịch vụ</p>
+                    <input type="text" placeholder="nhập" required class="replay-input">
+                    <input type="button" value="gửi" class="comment button-black">
+                </div>
+            </div>
+        </div>
+        <div class="content-text">
+            <div>
+                <canvas id="myCanvas" width="200" height="100"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-text">
+            <h2>DỊCH VỤ VẬN TẢI NGỌC DƯƠNG</h2>
+            <p><i class="ti-location-pin"></i> Địa chỉ 1:Cầu Tó-Thanh Trì-Hà Nội</p>
+            <p><i class="ti-location-pin"></i> địa chỉ 2:Cầu Quan - Trung Chính - Nông Cống - Thanh Hoá</p>
+            <p><i class="ti-mobile"></i>Sđt:03964152260; fax</p>
+        </div>
+    </div>
+
+    </div>
+    <div class="hotline-phone-ring-wrap">
+        <div class="hotline-phone-ring">
+            <div class="hotline-phone-ring-circle"></div>
+            <div class="hotline-phone-ring-circle-fill"></div>
+            <div class="hotline-phone-ring-img-circle">
+                <a href="tel:0364152260" class="pps-btn-img">
+                    <img src="/acssed/img/icon-call-nh.png" alt="Gọi điện thoại" width="50">
+                </a>
+            </div>
+        </div>
+        <div class="hotline-bar">
+            <a href="tel:0364152260">
+                <span class="text-hotline">0364152260</span>
+            </a>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-container">
+            <div class="modal-close">
+                <i class="ti-close"></i>
+            </div>
+            <header class="modal-header">
+                <i class="ti-bag"></i>
+                <p class="modal-text">THÔNG TIN LIÊN HỆ</p>
+            </header>
+            <div class="modal-body">
+                <label class="modal-label" for="input-many">
+                    <i class="ti-map"></i> Địa chỉ
+                </label>
+                <input type="text" class="modal-input" placeholder="địa chỉ" id="input-many">
+                <label class="modal-label" for="input-email">
+            <i class="ti-mobile"></i>
+                    SĐT/Email
+            </label>
+                <input type="text" class="modal-input" placeholder="Enter sđt/emali" id="input-email">
+                <button id="buy-ticker">
+                    xác nhận
+                    <i class="ti-check"></i>
+                </button>
+                <p class="help">Need <a class="modal-help" href="">help?</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "208496374278702");
+        chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v12.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <script>
+        const buyBtn = document.querySelector('.dv-button');
+        const modal = document.querySelector('.modal');
+        const close = document.querySelector('.modal-close');
+        const modalclose = document.querySelector('.modal');
+        const container = document.querySelector('.modal-container');
+        const comment = document.querySelector('.comment');
+        const menu = document.querySelector('.menu-text');
+        var header = document.getElementById('header');
+        var menuMobile = document.getElementById('menu-mb');
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]')
+        var headerHeight = header.clientHeight;
+
+        function closebtn() {
+            modal.classList.remove('open')
+        }
+
+        function showbuyticketr() {
+            modal.classList.add('open')
+        }
+        buyBtn.addEventListener('click', showbuyticketr)
+        close.addEventListener('click', closebtn)
+        modalclose.addEventListener('click', closebtn)
+        container.addEventListener('click', function(event) {
+            event.stopPropagation()
+        })
+        comment.addEventListener('click', function() {
+            alert("chân thành cảm ơn quý khách đã phản hồi về chất lượng dịch vụ , chúng tôi sẽ cố gắng hoàn thiện dịch vụ tốt hơn");
+        })
+        menuMobile.onclick = function() {
+            var isClose = header.clientHeight === headerHeight;
+            if (isClose) {
+                header.style.height = 'auto';
+            } else {
+                header.style.height = null;
+            }
+        }
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+            menuItem.onclick = function() {
+                header.style.height = null;
+            }
+        }
+    </script>
+</body>
+
+
+</html>
